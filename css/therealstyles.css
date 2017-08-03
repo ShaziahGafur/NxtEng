@@ -1,0 +1,210 @@
+*{
+  margin: 0px;
+}
+
+/*Navigation Bar*/
+
+nav > ul > li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 20px 10px;
+}
+
+nav> ul{
+  position: absolute;
+  right:0px;
+  position:fixed;
+  z-index: 1;
+}
+
+nav > ul > li:hover{
+	background-color: white;
+
+}
+
+nav > ul > li:hover a{
+  color: black;
+
+}
+
+nav > ul > li>a{
+  text-decoration: none;
+  color: white;
+
+
+}
+
+nav{
+	width: 100%;
+  z-index: 1;
+}
+
+/*Header that user first sees; Cover*/
+
+.cover{
+  height: 500px;
+	width: 100%;
+	background:url("http://i.imgur.com/5KKRFbS.jpg") no-repeat;
+   background-size: 100% 100%;
+
+}
+
+/*About Page*/
+
+#about{
+  width: 100%;
+  background-color: rgb(141, 134, 201);
+  text-align: center;
+  color: white;
+    padding: 100px 0px 100px;
+    z-index: -1;
+}
+
+.box h3{
+  font-size: 25px;
+  padding-bottom: 50px;
+}
+
+div.box{
+  width:60%;
+  position: relative;
+  left: 20%;
+  background: rgb(99, 91, 170);
+  z-index: 0;
+}
+
+/*Common Features for each block*/
+
+div > h1{
+  padding: 50px 0px 20px;
+}
+
+div > p{
+  padding: 20px 0px 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*Our Mission*/
+
+#mission section{
+  width: 40%;
+  display: inline;
+  float:left;
+  background: rgb(187, 238, 238);
+  height: inherit;
+}
+#mission aside{
+  width: 60%;
+  display: inline;
+  float:left;
+  background: rgb(240, 237, 238);
+  height: inherit;
+}
+
+#mission{
+  width: 100%;
+  background-color: rgb(100, 100, 250);
+  height: 100px;
+}
+
+#mission h2{
+  margin-left:40%;
+}
+
+/*Our Vision*/
+
+#vision{
+  width: 100%;
+  background-color: rgb(36, 32, 56);
+  text-align: center;
+  color: white;
+}
+
+/*Upcoming Events*/
+
+#events{
+  background-color: red;
+  text-align: center;
+}
+
+.thirds{
+  width:100%;
+}
+#events article{
+  display:inline-block;
+  width: 20%;
+}
+
+/*
+#events{
+  background-color: pink;
+  text-align: center;
+  width: 100% ;
+
+}
+
+div.upcoming-event{
+  display: inline-block;
+background-color: blue;
+width: 45%;
+
+}
+*/
+/*Past Events*/
+
+.past-events{
+  width: 100%;
+  text-align: center;
+}
+
+.past-events article{
+  display:inline-block;
+  width: 20%;
+}
+
+/*The team*/
+
+#team article{
+  width: 25%;
+  display:inline-block;
+}
+.directors > article{
+  display:inline-block;
+  width: 25%;
+  background: blue;
+}
+
+.directors{
+  width: 100%;
+  background: yellow;
+
+}
+
+#team{
+width: 100%;
+text-align: center;
+}
+
+.team-pic img{
+  margin-left: 25%;
+}
+
+/*Partners*/
+
+#partner{
+  text-align: center;
+}
+/* Contact Us*/
+
+#contact{
+  text-align: center;
+}
+
+/* Useless
+#team li{
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 20px;
+
+}
