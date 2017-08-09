@@ -1,5 +1,6 @@
 *{
   margin: 0px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*Navigation Bar*/
@@ -92,7 +93,7 @@ div > p{
   display: inline;
   float:left;
   background: rgb(187, 238, 238);
-  height: inherit;
+  height: 100%;
 }
 #mission aside{
   width: 60%;
@@ -104,8 +105,9 @@ div > p{
 
 #mission{
   width: 100%;
-  background-color: rgb(100, 100, 250);
-  height: 100px;
+  background-color: rgb(187, 238, 238);
+  display:flex;
+
 }
 
 #mission h2{
@@ -124,8 +126,9 @@ div > p{
 /*Upcoming Events*/
 
 #events{
-  background-color: red;
+  background-color: rgb(114, 90, 193);
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .thirds{
@@ -156,6 +159,9 @@ width: 45%;
 .past-events{
   width: 100%;
   text-align: center;
+  padding-bottom: 50px;
+  background-color: rgb(141, 134, 201);
+
 }
 
 .past-events article{
@@ -172,12 +178,12 @@ width: 45%;
 .directors > article{
   display:inline-block;
   width: 25%;
-  background: blue;
+  /*background: rgb(240, 237, 238);*/
 }
 
 .directors{
   width: 100%;
-  background: yellow;
+  background: rgb(117, 221, 221);
 
 }
 
