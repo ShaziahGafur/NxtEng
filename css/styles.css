@@ -139,14 +139,14 @@ div > p{
   width: 20%;
 }
 
-/*
+
 #events{
   background-color: pink;
   text-align: center;
   width: 100% ;
 
 }
-
+/*
 div.upcoming-event{
   display: inline-block;
 background-color: blue;
@@ -155,6 +155,11 @@ width: 45%;
 }
 */
 /*Past Events*/
+
+.event-pic img{
+height:100%;
+padding: 0 px;
+}
 
 .past-events{
   width: 100%;
